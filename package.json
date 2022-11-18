@@ -57,7 +57,7 @@
   "homepage": "https://yjs.dev",
   "dependencies": {
     "level": "^6.0.1",
-    "lib0": "^0.2.31"
+    "lib0": "0.2.49"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^13.0.0",
@@ -72,10 +72,10 @@
     "rollup-plugin-node-polyfills": "^0.2.1",
     "standard": "^14.3.4",
     "typescript": "^3.9.6",
-    "y-protocols": "^1.0.0",
-    "yjs": "^13.2.0"
+    "y-protocols": "https://github.com/kuldeep3/y-protocols.git#4397e70c471d32a446385f3a0138ec2b8669d151",
+    "yjs": "https://github.com/kuldeep3/yjs.git#b973404b8eeba4942a0201f97c71e6f1d2465c97"
   },
   "peerDependencies": {
-    "yjs": "^13.0.0"
+    "yjs": "https://github.com/kuldeep3/yjs.git#b973404b8eeba4942a0201f97c71e6f1d2465c97"
   }
 }
